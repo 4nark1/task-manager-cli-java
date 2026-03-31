@@ -18,7 +18,7 @@ This project follows basic Clean Architecture principles:
 - Dependency Injection
 
 # Flow of the program:
-Main -> TaskManager -> TaskRepository -> Tasks
+Main -> TaskManager -> TaskRepository -> JsonFileTaskRepository -> Tasks
 
 # Persistence
 Files are persisted in a Json file using Gson library
