@@ -5,7 +5,6 @@ public class TaskManager {
     private static int id;
     private final TaskRepository repository;
 
-    //adicionei o metodo que eu criei no JsonFileTaskRepository getMaxId()
     public TaskManager(TaskRepository repository){
         this.repository = repository;
         this.id = repository.getMaxId();
