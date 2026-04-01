@@ -37,11 +37,14 @@ Files are persisted in a Json file using Gson library
 - Design a maintainable code
 - Handling real ID persistence bugs
 
-# How to run:
-1. Compile the project:
-javac *.java
+# Requirement to run the program
+- Java JDK installed.
+- Gson library
 
-2. Run the application:
-java Main
+# Download Gson
+https://repo1.maven.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
 
-Note: make sure you are in the project directory and have Java installed otherwise it won't run.
+place the .jar file in the project folder.
+
+# How to run on windows:
+just double click the run.bat file
